@@ -20,7 +20,7 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
 
-    "types": ["node", "es"],
+    "types": ["node"],
     "paths": {
       "@/*": ["./src/*"]
     }
