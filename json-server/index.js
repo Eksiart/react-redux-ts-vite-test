@@ -22,6 +22,6 @@ server.use(async (req, res, next) => {
 server.use(router);
 
 // запуск сервера
-server.listen(8000, () => {
-    console.log('server is running on 8000 port');
+server.listen(3003, () => {
+    console.log('server is running on 3003 port');
 });

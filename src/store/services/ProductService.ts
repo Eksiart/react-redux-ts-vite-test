@@ -7,7 +7,7 @@ type fetchProductsByCategoryType = Omit<IFiltersState, "totalCount">
 
 export const productApi = createApi({
 	reducerPath: 'productApi',
-	baseQuery: fetchBaseQuery({ baseUrl: 'http://localhost:8000' }),
+	baseQuery: fetchBaseQuery({ baseUrl: 'https://products.eksiart.ru/api' }),
 	endpoints: (build) => ({
 		fetchAllCategories: build.query<ICategory[], void>({
 			query: () => ({
